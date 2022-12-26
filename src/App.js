@@ -4,20 +4,40 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     
+	<body>
+
+<div className="wrapper">
+  <div className="inner">
+    
+    <form action="">
+    <div className="title">
+      <h3 className="contact">Contact Us</h3>
+      <p>If you want to join us and become a javascript developer please fill the next form.</p>
+      </div>
+      <label className="form-group">
+        <input type="text" className="form-control"  required/>
+        <span>Your Name</span>
+        <span className="border"></span>
+      </label>
+      <label className="form-group">
+        <input type="text" className="form-control"  required/>
+        <span htmlFor="">Your Mail</span>
+        <span className="border"></span>
+      </label>
+      <label className="form-group" >
+        <textarea name="" id="" className="form-control" required></textarea>
+        <span htmlFor="">Your Message</span>
+        <span className="border"></span>
+      </label>
+      <button>Submit 
+        <i className="zmdi zmdi-arrow-right"></i>
+      </button>
+    </form>
+  </div>
+</div>
+
+</body>
     </div>
   );
 }
