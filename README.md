@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### `npm install`
-Create the node_modules folder and donwload libraries and dependancies.
+Create the node_modules folder and download libraries and dependancies.
 
 ### `npm start`
 
