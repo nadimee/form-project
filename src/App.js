@@ -5,8 +5,6 @@ function App() {
   return (
     <div className="App">
      
-	<body>
-
 <div className="wrapper">
   <div className="inner">
     
@@ -36,8 +34,6 @@ function App() {
     </form>
   </div>
 </div>
-
-</body>
     </div>
   );
 }
